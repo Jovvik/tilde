@@ -10,7 +10,7 @@
     commandPathDelimiter: '/',
     commandSearchDelimiter: ' ',
     defaultSearchTemplate: 'https://google.com/search?q={}',
-    openLinksInNewTab: true,
+    openLinksInNewTab: false,
     suggestionLimit: 4,
   };
 
@@ -37,6 +37,10 @@
       searchTemplate: '/drive/u/0/search?q={}',
       suggestions: [],
       url: 'https://drive.google.com/drive/u/0/my-drive',
+    },
+    f: {
+        name: 'Cloudflare',
+        url: 'https://dash.cloudflare.com',
     },
     g: {
       name: 'GitHub',
@@ -74,6 +78,11 @@
         url: 'https://community.primordial.dev'
     },
     s: {
+        name: "Steam",
+        suggestions: ['s/id/luapaster', 's/id/luapaster/inventory', 's/market'],
+        url: "https://steamcommunity.com",
+    },
+    ";": {
         name: 'PCMS',
         url: 'https://neerc.ifmo.ru/pcms2client/login.xhtml'
     }
