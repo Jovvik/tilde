@@ -9,7 +9,7 @@
   const CONFIG = {
     commandPathDelimiter: '/',
     commandSearchDelimiter: ' ',
-    defaultSearchTemplate: 'https://duckduckgo.com/?q={}',
+    defaultSearchTemplate: 'https://google.com/?q={}',
     openLinksInNewTab: true,
     suggestionLimit: 4,
   };
@@ -22,55 +22,32 @@
       url: 'http://localhost:3000',
     },
     a: {
-      name: 'AWS',
-      suggestions: [
-        'a/cognito/v2/idp/user-pools',
-        'a/dynamodbv2#item-explorer',
-      ],
-      url: 'https://us-west-2.console.aws.amazon.com/console/home',
-    },
-    b: {
-      name: 'Dribbble',
-      searchTemplate: '/search/{}',
-      url: 'https://dribbble.com/shots/popular',
+      name: 'Anime365',
+      suggestions: [],
+      url: 'https://anime365.ru',
     },
     c: {
       name: 'Calendar',
       searchTemplate: '/calendar/u/0/r/search?q={}',
-      suggestions: ['c/calendar/u/1/r', 'c/calendar/u/2/r'],
+      suggestions: [],
       url: 'https://calendar.google.com/calendar/u/0/r',
     },
     d: {
       name: 'Drive',
       searchTemplate: '/drive/u/0/search?q={}',
-      suggestions: ['d/drive/u/1/my-drive', 'd/drive/u/2/my-drive'],
+      suggestions: [],
       url: 'https://drive.google.com/drive/u/0/my-drive',
-    },
-    f: {
-      name: 'Figma',
-      url: 'https://www.figma.com/files/recent',
     },
     g: {
       name: 'GitHub',
       searchTemplate: '/search?q={}',
-      suggestions: ['g/trending', 'g/xvvvyz/tilde', 'gist.github.com'],
+      suggestions: [],
       url: 'https://github.com',
-    },
-    h: {
-      name: 'Hypem',
-      searchTemplate: '/search/{}',
-      suggestions: ['h/popular', 'h/popular/lastweek', 'h/tags'],
-      url: 'https://hypem.com/latest',
-    },
-    i: {
-      name: 'Inbox',
-      suggestions: ['i/u/1/inbox', 'i/u/2/inbox'],
-      url: 'https://mail.proton.me/u/0/inbox',
     },
     k: {
       name: 'Keep',
       searchTemplate: '/u/0/#search/text={}',
-      suggestions: ['k/u/1', 'k/u/2'],
+      suggestions: [],
       url: 'https://keep.google.com/u/0',
     },
     l: {
@@ -81,52 +58,14 @@
     m: {
       name: 'Mail',
       searchTemplate: '/mail/u/0/#search/{}',
-      suggestions: ['m/mail/u/1/#inbox', 'm/mail/u/2/#inbox'],
+      suggestions: [],
       url: 'https://mail.google.com/mail/u/0/#inbox',
-    },
-    n: {
-      name: 'Notion',
-      url: 'https://www.notion.so',
-    },
-    o: {
-      name: 'Discord',
-      suggestions: [
-        'o/channels/803833399684628520',
-        'o/channels/830183651022471199',
-      ],
-      url: 'https://discord.com/channels/@me',
     },
     r: {
       name: 'Reddit',
       searchTemplate: '/search?q={}',
-      suggestions: ['r/r/startpages', 'r/r/webdev', 'r/r/onebag', 'r/r/fujix'],
+      suggestions: [],
       url: 'https://www.reddit.com',
-    },
-    s: {
-      name: 'Slack',
-      suggestions: ['s/client/T09M5UWSV'],
-      url: 'https://app.slack.com',
-    },
-    t: {
-      name: 'Twitter',
-      searchTemplate: '/search?q={}',
-      url: 'https://twitter.com/home',
-    },
-    u: {
-      name: 'Supabase',
-      suggestions: ['u/project/xrncrutshmuifkzkexwb/editor'],
-      url: 'https://app.supabase.com',
-    },
-    v: {
-      name: 'Vercel',
-      suggestions: ['v/xvvvyz/lliist/deployments'],
-      url: 'https://vercel.com/dashboard',
-    },
-    y: {
-      name: 'YouTube',
-      searchTemplate: '/results?search_query={}',
-      suggestions: ['y/feed/trending'],
-      url: 'https://youtube.com/feed/subscriptions',
     },
     '?': {
       name: 'README.md',
